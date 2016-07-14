@@ -6,10 +6,10 @@
 		<artifactId>clyph-all</artifactId>
 		<version>0.0.1</version>
 	</parent>
-	<artifactId>clyph-backend</artifactId>
+	<artifactId>clyph-frontend</artifactId>
 	<packaging>war</packaging>
-	<name>clyph-backend</name>
-	<description>clyph-backend</description>
+	<name>clyph-frontend</name>
+	<description>clyph-frontend</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
