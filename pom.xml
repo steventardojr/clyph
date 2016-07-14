@@ -8,6 +8,7 @@
 	<description>clyph-all</description>
 	<version>0.0.2</version>
 	<modules>
+		<module>clyph-backend</module>
 		<module>clyph-frontend</module>
 	</modules>
 	<build>
