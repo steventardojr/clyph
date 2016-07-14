@@ -6,7 +6,7 @@
 	<packaging>pom</packaging>
 	<name>clyph-all</name>
 	<description>clyph-all</description>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<modules>
 		<module>clyph-frontend</module>
 	</modules>
