@@ -31,7 +31,7 @@ public class ClyphGuiceServletConfig extends GuiceServletContextListener {
 
         },
 
-        new ClyphModule()
+        new ClyphFrontendModule()
         );
 
     return injector;

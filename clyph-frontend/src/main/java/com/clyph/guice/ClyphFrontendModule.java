@@ -8,7 +8,7 @@ import com.google.inject.multibindings.Multibinder;
 import com.google.inject.name.Names;
 
 
-public class ClyphModule extends AbstractModule {
+public class ClyphFrontendModule extends AbstractModule {
 
   @Override
   protected void configure() {
@@ -20,6 +20,8 @@ public class ClyphModule extends AbstractModule {
 
     multibinder.addBinding().to(Home.class);
     multibinder.addBinding().to(ImageConversion.class);
+    
+    install(new ClyphBackendModule());
   }
 
 }

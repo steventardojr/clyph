@@ -6,7 +6,7 @@ $(document).ready(function(){
 		var convert = $('input[name=format]:checked', '#picForm').val()
 		
 		if (extensions.indexOf($('#picForm input[name=pic]').prop('files')[0].type) == -1) {
-			$("#message").html("File type not supported");
+			$("#message").html("File type " + ($('#picForm input[name=pic]').prop('files')[0].type).split("/")[1] + " not supported");
 			$("#message").show();
 			return false;
 		} else if ($('#picForm input[name=pic]').prop('files')[0] == null) {
@@ -15,6 +15,10 @@ $(document).ready(function(){
 			return false;
 		} else if (convert == null || convert == "") {
 			$("#message").html("You didn't select a new format");
+			$("#message").show();
+			return false;
+		} else if (($('#picForm input[name=pic]').prop('files')[0].type).indexOf(convert) > -1) {
+			$("#message").html("The image is already in the format selected");
 			$("#message").show();
 			return false;
 		}
