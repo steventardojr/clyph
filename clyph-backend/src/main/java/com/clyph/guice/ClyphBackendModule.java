@@ -1,7 +1,7 @@
 package com.clyph.guice;
 
+import com.clyph.properties.AWSModule;
 import com.google.inject.AbstractModule;
-import com.technique.properties.AWSModule;
 
 public class ClyphBackendModule extends AbstractModule {
 

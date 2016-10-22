@@ -1,4 +1,4 @@
-package com.technique.properties;
+package com.clyph.properties;
 
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.BasicAWSCredentials;
