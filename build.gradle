@@ -3,7 +3,7 @@ allprojects  {
   apply plugin: 'eclipse'
 
   group = 'com.clyph'
-version = '0.0.2'
+  version = '0.0.2'
 }
 
 subprojects {
@@ -17,8 +17,4 @@ subprojects {
     
     maven { url "http://repo.maven.apache.org/maven2" }
   }
-
-  
-  
-  
 }
