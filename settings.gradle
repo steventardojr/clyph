@@ -1,6 +1,1 @@
-rootProject.name = 'clyph-all'
-include ':clyph-backend'
-include ':clyph-frontend'
-
-project(':clyph-backend').projectDir = "$rootDir/clyph-backend" as File
-project(':clyph-frontend').projectDir = "$rootDir/clyph-frontend" as File
+include ':clyph-backend', ':clyph-frontend'
