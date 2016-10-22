@@ -6,3 +6,4 @@
 .settings/
 src/main/webapp/WEB-INF/lib/*
 src/main/webapp/WEB-INF/classes/*
+/bin/

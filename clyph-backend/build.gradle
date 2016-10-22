@@ -1,0 +1,8 @@
+
+description = 'clyph-backend'
+dependencies {
+    compile group: 'com.google.inject', name: 'guice', version:'4.1.0'
+    compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.21'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version:'1.7.21'
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-s3', version:'1.11.13'
+}
