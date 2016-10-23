@@ -1,6 +1,6 @@
 allprojects  {
   apply plugin: 'maven'
-  apply plugin: 'eclipse'
+  apply plugin: 'eclipse-wtp'
   
   version = '0.0.2'
 }
