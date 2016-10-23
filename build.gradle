@@ -1,8 +1,6 @@
 allprojects  {
   apply plugin: 'maven'
   apply plugin: 'eclipse'
-  
-  version = '0.0.2'
 }
 
 subprojects {
