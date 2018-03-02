@@ -12,13 +12,10 @@ import com.google.inject.servlet.GuiceServletContextListener;
 import com.google.inject.servlet.ServletModule;
 
 public class ClyphGuiceServletConfig extends GuiceServletContextListener {
-
   @Override
   protected Injector getInjector() {
-
     Injector injector = Guice.createInjector(
         new ServletModule(){
-
           @Override
           protected void configureServlets() {
             Map<String,String> initParams = new HashMap<String,String>();
@@ -30,12 +27,9 @@ public class ClyphGuiceServletConfig extends GuiceServletContextListener {
           }
 
         },
-
         new ClyphFrontendModule()
         );
 
     return injector;
-
   }
-
 }

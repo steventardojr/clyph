@@ -29,7 +29,7 @@ task copyDocs(type: Copy) {
 }
 
 docker {
-    baseImage "tomcat:8.5.8"
+    baseImage "tomcat:9.0.5"
 }
 
 task tomcatDocker(type: Docker) {

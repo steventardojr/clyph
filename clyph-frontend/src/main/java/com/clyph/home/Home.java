@@ -8,7 +8,6 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/home")
 public class Home {
-
   @GET
   @Produces(MediaType.TEXT_HTML)
   public String get(@QueryParam("text") final String text) {

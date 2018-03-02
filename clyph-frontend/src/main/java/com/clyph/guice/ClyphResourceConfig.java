@@ -15,8 +15,7 @@ import org.slf4j.LoggerFactory;
 import com.google.inject.Injector;
 
 public class ClyphResourceConfig extends ResourceConfig {
-
-  private static final Logger logger = LoggerFactory.getLogger(ClyphResourceConfig.class);
+  private final Logger logger = LoggerFactory.getLogger(getClass());
 
   @com.google.inject.Inject public static Injector INJECTOR;
   @com.google.inject.Inject @Named("ClyphResource") public static Set<Object> BOUND_RESOURCES;

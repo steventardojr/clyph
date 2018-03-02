@@ -32,5 +32,4 @@
 	<error-page>
 		<location>/html/common/error.html</location>
 	</error-page>
-
 </web-app>
